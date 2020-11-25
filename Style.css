@@ -1,0 +1,91 @@
+table.first{
+    width: 100px;
+    height: 200px;
+   
+    border-collapse: collapse;
+    margin: auto;
+    align-content: center;
+  }
+  div.blocks{
+      width: 100px;
+      height: 100px;
+      align-content: center;
+  }
+  div.blocks:hover{
+      background-color: red;
+  }
+  td, th {
+    background-color: grey;
+    
+    align-content: center;
+    }
+  table.second{
+    width: 350px;
+    height: 100px;
+    align-content: center;
+    margin-top: 100px;
+    margin-left: 460px;
+  }
+  th.phrase{
+    font-weight: bolder;
+  }
+  th.phrase:before{
+    content:'«';
+    color: red;
+    width: 10px;
+    height: 10px;
+  }
+  th.phrase:after{
+    content:'»';
+    color:red;
+    width: 10px;
+    height: 10px;
+  }
+  th.phrase:hover{
+    background-color: #F5F5DC;
+  }
+  .blocks{
+    text-align: center;
+    background-color:#E6E6FA;
+    margin: 20px;
+  
+  }
+  .blocks:hover{
+    background-color:#F5F5DC;
+  }
+  .fa-anchor{
+    color: green;
+    padding: 40px;
+  }
+  .fa-apple{
+    color: green;
+    padding: 20px;
+  }
+  .fa-aws{
+    color: green;
+    padding: 20px;
+  }
+  .fa-bluetooth-b{
+    color: green;
+    padding: 20px;
+  }
+  table.Third{
+    align-content: center;
+    margin-top: 50px;
+    margin-left: 560px;
+  }
+  th.FirstCell{
+    background-color: #808080;
+  }
+  th.SecondCell{
+    background-color: #A9A9A9;
+  }
+  th.ThirdCell{
+    background-color: #FFFFFF;
+  }
+  table.Fourth{
+    width: 300px;
+    height: 200px;
+    border-collapse: collapse;
+    padding: 50px;
+  }
